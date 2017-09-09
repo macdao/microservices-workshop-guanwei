@@ -12,9 +12,9 @@ public class TechniquesController {
     @Autowired
     private TechniquesService techniquesService;
 
-//    @RequestMapping(path = "/techniques/microservices", method = RequestMethod.GET)
+    @RequestMapping(path = "/techniques/microservices", method = RequestMethod.GET)
     public Map<String, String> microservices() {
-        return null;
-//        return techniquesService.getResult();
+//        return null;
+        return techniquesService.getResult();
     }
 }
