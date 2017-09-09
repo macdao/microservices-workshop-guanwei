@@ -11,5 +11,5 @@ dependencies {
 
     testCompile("junit:junit:4.9")
     testCompile('com.toomuchcoding.jsonassert:jsonassert:0.4.9')
-//    testCompile("com.github.dreamhead:moco-runner:0.11.1")
+    testCompile("com.github.dreamhead:moco-runner:0.11.1")
 }
