@@ -3,7 +3,7 @@ package radar.client;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
-//import org.springframework.cloud.contract.stubrunner.spring.AutoConfigureStubRunner;
+import org.springframework.cloud.contract.stubrunner.spring.AutoConfigureStubRunner;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.web.client.RestTemplate;
 
@@ -14,7 +14,7 @@ import static org.assertj.core.api.Assertions.entry;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-//@AutoConfigureStubRunner(ids = {"radar:scc-server:+:stubs:8080"}, workOffline = true)
+@AutoConfigureStubRunner(ids = {"radar:scc-server:+:stubs:8080"}, workOffline = true)
 public class RadarClientApplicationTests {
 
     private RestTemplate restTemplate = new RestTemplate();
