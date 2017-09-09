@@ -21,8 +21,8 @@ public class RadarClientApplicationTests {
 
     @Test
     public void shouldGetTechniquesMicroservices() {
-//        @SuppressWarnings("unchecked") final Map<String, String> response = restTemplate.getForObject("http://localhost:8080/techniques/microservices", Map.class);
-//        assertThat(response).contains(entry("quadrant", "Techniques"), entry("ring", "TRIAL"));
+        @SuppressWarnings("unchecked") final Map<String, String> response = restTemplate.getForObject("http://localhost:8080/techniques/microservices", Map.class);
+        assertThat(response).contains(entry("quadrant", "Techniques"), entry("ring", "TRIAL"));
     }
 
 }
