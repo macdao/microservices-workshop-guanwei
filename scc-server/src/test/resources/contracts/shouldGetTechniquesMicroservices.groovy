@@ -1,4 +1,3 @@
-/*
 org.springframework.cloud.contract.spec.Contract.make {
     request {
         method 'GET'
@@ -16,4 +15,4 @@ org.springframework.cloud.contract.spec.Contract.make {
             header('Content-Type': 'application/json;charset=UTF-8')
         }
     }
-}*/
+}

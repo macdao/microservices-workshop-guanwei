@@ -7,13 +7,13 @@ buildscript {
     }
     dependencies {
         classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
-//        classpath("org.springframework.cloud:spring-cloud-contract-gradle-plugin:1.1.3.RELEASE")
+        classpath("org.springframework.cloud:spring-cloud-contract-gradle-plugin:1.1.3.RELEASE")
     }
 }
 
 apply plugin: 'java'
 apply plugin: 'org.springframework.boot'
-//apply plugin: 'spring-cloud-contract'
+apply plugin: 'spring-cloud-contract'
 apply plugin: "maven-publish"
 
 group = "radar"
