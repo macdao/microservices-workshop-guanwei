@@ -1,0 +1,15 @@
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile('org.apache.httpcomponents:fluent-hc:4.5.3')
+
+    testCompile("junit:junit:4.9")
+    testCompile('com.toomuchcoding.jsonassert:jsonassert:0.4.9')
+//    testCompile("com.github.dreamhead:moco-runner:0.11.1")
+}

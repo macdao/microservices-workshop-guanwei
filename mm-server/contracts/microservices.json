@@ -1,0 +1,19 @@
+[
+  {
+    "description": "can_get_techniques_microservices",
+    "request": {
+      "uri": "/techniques/microservices",
+      "method": "GET"
+    },
+    "response": {
+      "status": 200,
+      "headers": {
+        "Content-Type": "application/json;charset=UTF-8"
+      },
+      "json": {
+        "quadrant": "Techniques",
+        "ring": "TRIAL"
+      }
+    }
+  }
+]
